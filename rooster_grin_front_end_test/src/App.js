@@ -18,7 +18,7 @@ class App extends Component {
           <NavBar />
         </div>
         <div className="carousel">
-          <Carousel autoPlay={true} showArrows={true} showThumbs={false} dynamicHeight={true} infiniteLoop={true}>
+          <Carousel autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
             <div>
               <img src={require('./carousel_images/hero-img.jpg')} />
             </div>
