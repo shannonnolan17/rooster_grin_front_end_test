@@ -30,6 +30,7 @@
 
 .gradient-background {
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .page-item {
@@ -41,5 +42,28 @@
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 20px;
+}
+
+.first-word {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 28px;
+  color: #F36819;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #283647;
+  text-align: center;
+}
+
+.button {
+  width: 215px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 5px;
+  background: linear-gradient(to right, #F36819, #F7931D);
 }
 
