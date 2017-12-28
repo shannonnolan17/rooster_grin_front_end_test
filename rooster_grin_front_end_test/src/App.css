@@ -26,3 +26,34 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.navbar {
+  background-color: #1767DD;
+  height: 60px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.carousel {
+  height: 509px;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.post-content {
+  top: 50%;
+  left: 0;
+  position: absolute;
+}
+
+.page-item {
+  padding: 50px;
+}
+
+.page-item-text {
+  padding: 20px;
+}
