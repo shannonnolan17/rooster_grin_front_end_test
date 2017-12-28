@@ -4,30 +4,31 @@ class PercentageContainer extends Component {
   render() {
     return (
       <div>
+        <h1>Title</h1>
 
-        <div class="container">
-
-          <div class="row">
-            <div class="col">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-6">
               1 of 2
             </div>
-            <div class="col">
+            <div className="col-sm-6">
               1 of 2
             </div>
           </div>
+        </div>
 
-          <div class="row">
-            <div class="col">
-              1 of 3
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-6 col-sm-4">
+              PERCENTAGE
             </div>
-            <div class="col">
-              1 of 3
+            <div className="col-xs-6 col-sm-4">
+              PERCENTAGE
             </div>
-            <div class="col">
-              1 of 3
+            <div className="col-xs-6 col-sm-4">
+              PERCENTAGE
             </div>
           </div>
-
         </div>
 
       </div>
