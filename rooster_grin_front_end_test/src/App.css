@@ -22,18 +22,25 @@
   border-radius: 5px 0 0 5px;
   height: 40px;
   width: 50px;
-  right: 0%;
-  left: 80%;
+}
+
+.sticky-button-position {
+  top: 35%;
+  right: 100;
+  left: 0;
+
 }
 
 .caption, .gradient-text {
   position: absolute;
   left: 10%;
   right: 10%;
-  top: 35%;
+  top: 30%;
   text-align: center;
   font-family: 'Roboto';
   color: white;
+  font-size: 28px;
+  letter-spacing: 2px;
 }
 
 .gradient-background {
@@ -65,14 +72,19 @@
   font-size: 28px;
   color: #283647;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .button {
   width: 215px;
   height: 40px;
   border-radius: 5px;
-  box-shadow: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: linear-gradient(to right, #F36819, #F7931D);
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  letter-spacing: 2px;
 }
 
 .picture-grid {
@@ -88,17 +100,17 @@
 
 .subtitle {
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 20px;
   color: #F7931D;
 }
 
 .paragraph {
   font-family: 'Roboto';
-  font-size: 20px;
+  font-size: 14px;
 
 }
 
-.row {
+.row-spacing {
   padding: 30px;
 }
 
@@ -117,15 +129,72 @@
   top: 45%;
   left: 15%;
   right: 45%;
+  overflow: auto;
 }
 
 .carousel-button {
   width: 215px;
   height: 40px;
   border-radius: 5px;
-  box-shadow: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: linear-gradient(to right, #F36819, #F7931D);
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  letter-spacing: 2px;
   top: 45%;
   left: 10%;
-  right: 20%;
+  right: 30%;
 }
+
+.spacing {
+  padding-top: 30px;
+}
+
+.button-position {
+  padding: 5%;
+}
+
+.percentage-styling {
+  font-family: 'Roboto';
+  font-size: 55px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fact-styling {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #F36819;
+  text-align: center;
+
+}
+.testimonial-styling {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #283647;
+
+}
+
+.contact-modal {
+  background: rgba(105, 105, 105, .7);
+
+}
+
+
+.fade {
+  opacity:0.5;
+}
+
+.fade:hover {
+  opacity:1;
+}
+
+.no-extras {
+  border: 1 !important;
+  box-shadow: none !important;
+  background-color: white !important;
+  cursor: default !important;
+}
+

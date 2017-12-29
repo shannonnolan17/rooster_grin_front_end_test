@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class CompanyIntro extends Component {
   render() {
     return (
-      <div>
+      <div className="spacing">
         <div className="container">
           <div className="row">
             <div className="col-md-5">
