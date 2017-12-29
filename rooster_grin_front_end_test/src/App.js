@@ -7,6 +7,7 @@ import NavBar from './components/NavBar'
 import CompanyIntro from './components/CompanyIntro'
 import GradientBackground from './components/GradientBackground'
 import PercentageContainer from './components/PercentageContainer'
+import PictureGrid from './components/PictureGrid'
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 
@@ -14,19 +15,32 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="navbar fixed-top">
+        <div className="navbars fixed-top">
           <NavBar />
         </div>
-        <div className="carousel">
-          <Carousel autoPlay={true} showArrows={true} showThumbs={false} dynamicHeight={true} infiniteLoop={true}>
+
+        <div className="container-flex">
+          <Carousel className="carousel" autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
             <div>
               <img src={require('./carousel_images/hero-img.jpg')} />
             </div>
+
             <div>
               <img src={require('./carousel_images/iStock-503300108.jpg')} />
             </div>
           </Carousel>
+
+          <div className="envelope-pic carousel-caption">
+            <img src={require('./images/envelope-icon.svg')} />
+          </div>
+
+          <div className="carousel-caption carousel-text">
+            <h1 className="carousel-title">Anne O'Day Orthodontics</h1>
+            <button type="button" className="carousel-button">Button</button>
+          </div>
+
         </div>
+
         <div className="company-intro">
           <CompanyIntro />
         </div>
@@ -37,6 +51,10 @@ class App extends Component {
 
         <div>
           <PercentageContainer />
+        </div>
+
+        <div>
+          <PictureGrid />
         </div>
 
       </div>

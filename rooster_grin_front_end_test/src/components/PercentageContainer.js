@@ -20,13 +20,16 @@ class PercentageContainer extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-6 col-sm-4">
-              PERCENTAGE
+              <h1>75%</h1>
+              <p>of kids have issues with their teeth</p>
             </div>
             <div className="col-xs-6 col-sm-4">
-              PERCENTAGE
+              <h1>75%</h1>
+              <p>of kids have issues with their teeth</p>
             </div>
             <div className="col-xs-6 col-sm-4">
-              PERCENTAGE
+              <h1>75%</h1>
+              <p>of kids have issues with their teeth</p>
             </div>
           </div>
         </div>
