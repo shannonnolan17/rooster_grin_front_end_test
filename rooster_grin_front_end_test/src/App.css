@@ -1,4 +1,4 @@
-.navbar {
+.navbars {
   background-color: #1767DD;
   height: 60px;
 }
@@ -17,6 +17,14 @@
   box-shadow: none;
 }
 
+.envelope-pic {
+  background-color: #F7931D;
+  border-radius: 5px 0 0 5px;
+  height: 40px;
+  width: 50px;
+  right: 0%;
+  left: 80%;
+}
 
 .caption, .gradient-text {
   position: absolute;
@@ -105,3 +113,19 @@
   font-weight: bold;
 }
 
+.carousel-text {
+  top: 45%;
+  left: 15%;
+  right: 45%;
+}
+
+.carousel-button {
+  width: 215px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 5px;
+  background: linear-gradient(to right, #F36819, #F7931D);
+  top: 45%;
+  left: 10%;
+  right: 20%;
+}
