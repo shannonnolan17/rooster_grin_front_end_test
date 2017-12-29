@@ -7,7 +7,7 @@ class PictureGrid extends Component {
         <h1 className="title"><span className="first-word">OUR</span> SERVICES</h1>
 
         <div className="container-flex">
-          <div className="row">
+          <div className="row row-spacing">
             <div className="col-md-6 text-column">
               <h1 className="title2">Early Interceptive Treatment</h1>
               <h3 className="subtitle">Nipping early orthodontic problems in the bud</h3>
@@ -19,7 +19,7 @@ class PictureGrid extends Component {
           </div>
 
         </div>
-          <div className="row">
+          <div className="row row-spacing">
             <div className="col-md-6">
               <img className="picture-grid img-responsive pull-left" src={require('../images/img2.jpg')} />
             </div>

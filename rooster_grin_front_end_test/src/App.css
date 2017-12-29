@@ -35,10 +35,12 @@
   position: absolute;
   left: 10%;
   right: 10%;
-  top: 35%;
+  top: 30%;
   text-align: center;
   font-family: 'Roboto';
   color: white;
+  font-size: 28px;
+  letter-spacing: 2px;
 }
 
 .gradient-background {
@@ -70,14 +72,19 @@
   font-size: 28px;
   color: #283647;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .button {
   width: 215px;
   height: 40px;
   border-radius: 5px;
-  box-shadow: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: linear-gradient(to right, #F36819, #F7931D);
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  letter-spacing: 2px;
 }
 
 .picture-grid {
@@ -103,7 +110,7 @@
 
 }
 
-.row {
+.row-spacing {
   padding: 30px;
 }
 
@@ -129,9 +136,43 @@
   width: 215px;
   height: 40px;
   border-radius: 5px;
-  box-shadow: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: linear-gradient(to right, #F36819, #F7931D);
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  letter-spacing: 2px;
   top: 45%;
   left: 10%;
   right: 30%;
+}
+
+.spacing {
+  padding-top: 30px;
+}
+
+.button-position {
+  padding: 5%;
+}
+
+.percentage-styling {
+  font-family: 'Roboto';
+  font-size: 55px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fact-styling {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #F36819;
+  text-align: center;
+
+}
+.testimonial-styling {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #283647;
+
 }

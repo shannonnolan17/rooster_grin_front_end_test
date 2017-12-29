@@ -46,19 +46,19 @@ class App extends Component {
           </header>
         </Sticky>
 
-        <div className="company-intro">
-          <CompanyIntro />
+        <div>
+          <CompanyIntro className="spacing"/>
         </div>
 
-        <div>
+        <div className="spacing">
           <GradientBackground />
         </div>
 
-        <div>
+        <div className="spacing">
           <PercentageContainer />
         </div>
 
-        <div>
+        <div className="spacing">
           <PictureGrid />
         </div>
 
