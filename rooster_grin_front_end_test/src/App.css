@@ -67,3 +67,26 @@
   background: linear-gradient(to right, #F36819, #F7931D);
 }
 
+.picture-grid {
+  width: 705px;
+  height: 350px;
+}
+
+.title2 {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #F36819;
+}
+
+.subtitle {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #F7931D;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 20px;
+
+}
+

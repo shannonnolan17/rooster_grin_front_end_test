@@ -7,6 +7,7 @@ import NavBar from './components/NavBar'
 import CompanyIntro from './components/CompanyIntro'
 import GradientBackground from './components/GradientBackground'
 import PercentageContainer from './components/PercentageContainer'
+import PictureGrid from './components/PictureGrid'
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 
@@ -37,6 +38,10 @@ class App extends Component {
 
         <div>
           <PercentageContainer />
+        </div>
+
+        <div>
+          <PictureGrid />
         </div>
 
       </div>
