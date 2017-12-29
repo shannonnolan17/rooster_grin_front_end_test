@@ -36,7 +36,7 @@ class App extends Component {
 
           <div className="carousel-caption carousel-text">
             <h1 className="carousel-title">Anne O'Day Orthodontics</h1>
-            <button type="button" className="carousel-button">Button</button>
+            <button type="button" className="carousel-button pull-right">Button</button>
           </div>
 
         </div>

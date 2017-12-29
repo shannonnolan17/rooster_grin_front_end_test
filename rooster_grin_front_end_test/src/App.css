@@ -22,8 +22,11 @@
   border-radius: 5px 0 0 5px;
   height: 40px;
   width: 50px;
-  right: 0%;
-  left: 80%;
+  top: 35%;
+  float: right;
+  left: 1px;
+  right: 0px;
+
 }
 
 .caption, .gradient-text {
@@ -117,6 +120,7 @@
   top: 45%;
   left: 15%;
   right: 45%;
+  overflow: auto;
 }
 
 .carousel-button {
@@ -127,5 +131,5 @@
   background: linear-gradient(to right, #F36819, #F7931D);
   top: 45%;
   left: 10%;
-  right: 20%;
+  right: 30%;
 }
