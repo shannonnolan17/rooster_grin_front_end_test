@@ -5,17 +5,33 @@ class ContactForm extends Component {
   render() {
     return (
       <div>
-        <form>
-          <div className="form-group">
-            <label for="formGroupExampleInput">Your Name</label>
-            <input type="text" className="form-control" id="formGroupExampleInput" />
-          </div>
-          <div className="form-group">
-            <label for="formGroupExampleInput2">Your Message</label>
-            <textarea type="text" className="form-control" id="formGroupExampleInput2" />
-          </div>
-        </form>
+        <h1 className="title"><span className="first-word">CONTACT</span> US</h1>
+        <div className="contact-form">
+          <form>
+            <div className="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" className="form-control" />
+            </div>
 
+            <div className="form-inline">
+            <div className="form-group">
+              <label for="email">Your Email</label><br/>
+              <input type="text" className="form-control"/>
+            </div>
+
+            <div className="form-group">
+              <label for="number">Phone Number</label><br/>
+              <input type="text" className="form-control" />
+            </div>
+            </div>
+
+            <div className="form-group">
+              <label for="message">Your Message</label>
+              <textarea type="text" className="form-control"/>
+            </div>
+          </form>
+
+        </div>
       </div>
 
     );

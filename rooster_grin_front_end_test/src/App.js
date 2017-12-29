@@ -68,10 +68,8 @@ class App extends Component {
           </header>
         </Sticky>
 
-        <Modal show={this.state.showModal} onHide={this.close}>
-          <Modal.Header closeButton>
-            <Modal.Title>Contact Us</Modal.Title>
-          </Modal.Header>
+        <Modal show={this.state.showModal} onHide={this.close} animation={true} >
+
           <Modal.Body>
             <ContactForm />
           </Modal.Body>

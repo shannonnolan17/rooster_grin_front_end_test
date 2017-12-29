@@ -26,7 +26,7 @@
 
 .sticky-button-position {
   top: 35%;
-  right: 0;
+  right: 100;
   left: 0;
 
 }
@@ -100,13 +100,13 @@
 
 .subtitle {
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 20px;
   color: #F7931D;
 }
 
 .paragraph {
   font-family: 'Roboto';
-  font-size: 20px;
+  font-size: 14px;
 
 }
 
@@ -174,5 +174,10 @@
   font-family: 'Roboto';
   font-size: 20px;
   color: #283647;
+
+}
+
+.contact-modal {
+  background: rgba(105, 105, 105, .7);
 
 }
