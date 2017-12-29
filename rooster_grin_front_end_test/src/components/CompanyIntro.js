@@ -6,7 +6,7 @@ class CompanyIntro extends Component {
       <div className="spacing">
         <div className="container">
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-5 fade-in">
               <span className="pull-left page-item">
                 <img src={require('../images/page-icon.svg')} />
               </span>
@@ -14,7 +14,7 @@ class CompanyIntro extends Component {
                 <p>You deserve the dedication, skill and wisdom of experience from Dr. Anne O’Day at Anne O’Day Orthodontics located in beautiful Bucks County.</p>
               </span>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-5 fade-in">
               <span className="pull-left  page-item">
                 <img src={require('../images/page-icon.svg')} />
               </span>
@@ -24,7 +24,7 @@ class CompanyIntro extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-5 fade-in">
               <span className="pull-left  page-item">
                 <img src={require('../images/page-icon.svg')} />
               </span>
@@ -32,7 +32,7 @@ class CompanyIntro extends Component {
                 <p>When it comes to straightening your teeth, you want a trusted, experienced orthodontic team who will help you and your family smile with confidence. </p>
               </span>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-5 fade-in">
               <span className="pull-left page-item">
                 <img src={require('../images/page-icon.svg')} />
               </span>

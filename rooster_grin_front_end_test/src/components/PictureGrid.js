@@ -13,14 +13,14 @@ class PictureGrid extends Component {
               <h3 className="subtitle">Nipping early orthodontic problems in the bud</h3>
               <p className="paragraph">The American Association of Orthodontists recommends an orthodontic exam at age 7. At Anne O'Day Orthodontics, we adhere to these standards of care but believe a conservative approach to straighten teeth is best with younger patients. In some cases, correcting dental problems while a child is young allows the teeth to become more stable and less likely to cause problems later. If a child is not a good candidate for early treatment, we'll recommend waiting to begin orthodontic treatment at a later date, when permanent teeth have all come in.</p>
             </div>
-            <div className="col-md-6 slide">
+            <div className="col-md-6 fade-in">
               <img className="picture-grid img-responsive pull-right" src={require('../images/img1.jpg')} />
             </div>
           </div>
 
         </div>
           <div className="row row-spacing">
-            <div className="col-md-6 slide">
+            <div className="col-md-6 fade-in">
               <img className="picture-grid img-responsive pull-left" src={require('../images/img2.jpg')} />
             </div>
             <div className="col-md-6 text-column">
