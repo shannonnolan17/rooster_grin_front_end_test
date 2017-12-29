@@ -1,6 +1,22 @@
 import React, { Component } from 'react';
+import Transition from 'react-transition-group/Transition';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 class PercentageContainer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      in: false
+    };
+
+  this.toggleEnterState = this.toggleEnterState.bind(this)
+}
+
+  toggleEnterState() {
+    this.setState({ in: true })
+  };
+
+
   render() {
     return (
       <div>
@@ -20,15 +36,17 @@ class PercentageContainer extends Component {
         <div className="container">
           <div className="row row-spacing">
             <div className="col-xs-6 col-sm-4">
-              <h1 className="percentage-styling">75%</h1>
+              <h1 className="percentage-styling fade">75%</h1>
               <p className="fact-styling">of all kids and teens have some type of problem when their adult teeth have "grown in"</p>
             </div>
+
             <div className="col-xs-6 col-sm-4">
-              <h1 className="percentage-styling">25%</h1>
+              <h1 className="percentage-styling fade">25%</h1>
               <p className="fact-styling">of orthodontic patients have to get braces again because they didn’t wear their retainers!</p>
             </div>
+
             <div className="col-xs-6 col-sm-4">
-              <h1 className="percentage-styling">80%</h1>
+              <h1 className="percentage-styling fade">80%</h1>
               <p className="fact-styling">of Americans have had a cavity by age 17</p>
             </div>
           </div>

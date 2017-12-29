@@ -18,11 +18,12 @@ class App extends Component {
     super(props);
     this.state = {
       showModal: false,
+      in: false
     };
 
     this._onButtonClick = this._onButtonClick.bind(this);
     this.close = this.close.bind(this)
-  }
+  };
 
   _onButtonClick() {
     this.setState({ showModal: true });

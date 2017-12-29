@@ -5,7 +5,7 @@ class ContactForm extends Component {
   render() {
     return (
       <div>
-        <h1 className="title"><span className="first-word">CONTACT</span> US</h1>
+        <h1 className="title"><span className="first-word">CONTACT US</span></h1>
         <div className="contact-form">
           <form>
             <div className="form-group">

@@ -181,3 +181,15 @@
   background: rgba(105, 105, 105, .7);
 
 }
+
+
+.fade {
+  opacity:0.5;
+}
+
+.fade:hover {
+  opacity:1;
+}
+
+
+
