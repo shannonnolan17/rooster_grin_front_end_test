@@ -9,6 +9,7 @@ import GradientBackground from './components/GradientBackground'
 import PercentageContainer from './components/PercentageContainer'
 import PictureGrid from './components/PictureGrid'
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
+import Sticky from 'react-sticky-el';
 
 
 class App extends Component {
@@ -30,16 +31,20 @@ class App extends Component {
             </div>
           </Carousel>
 
-          <div className="envelope-pic carousel-caption">
-            <img src={require('./images/envelope-icon.svg')} />
-          </div>
 
           <div className="carousel-caption carousel-text">
             <h1 className="carousel-title">Anne O'Day Orthodontics</h1>
-            <button type="button" className="carousel-button pull-right">Button</button>
+            <button type="button" className="carousel-button">Button</button>
           </div>
-
         </div>
+
+        <Sticky >
+          <header>
+            <div className="envelope-pic carousel-caption sticky-button-position" >
+              <img src={require('./images/envelope-icon.svg')} />
+            </div>
+          </header>
+        </Sticky>
 
         <div className="company-intro">
           <CompanyIntro />

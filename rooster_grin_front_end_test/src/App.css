@@ -22,10 +22,12 @@
   border-radius: 5px 0 0 5px;
   height: 40px;
   width: 50px;
+}
+
+.sticky-button-position {
   top: 35%;
-  float: right;
-  left: 1px;
-  right: 0px;
+  right: 0;
+  left: 0;
 
 }
 
