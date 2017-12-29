@@ -18,16 +18,25 @@ class App extends Component {
         <div className="navbar fixed-top">
           <NavBar />
         </div>
+
         <div className="carousel">
           <Carousel autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
             <div>
               <img src={require('./carousel_images/hero-img.jpg')} />
             </div>
+
             <div>
               <img src={require('./carousel_images/iStock-503300108.jpg')} />
             </div>
           </Carousel>
+
+          <div className="carousel-caption">
+            <h1 className="carousel-title">Anne O'Day Orthodontics</h1>
+            <button type="button" className="button">Button</button>
+          </div>
+
         </div>
+
         <div className="company-intro">
           <CompanyIntro />
         </div>

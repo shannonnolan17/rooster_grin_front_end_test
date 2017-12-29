@@ -90,3 +90,18 @@
 
 }
 
+.row {
+  padding: 30px;
+}
+
+.text-column {
+  padding: 30px;
+}
+
+.carousel-title {
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: bold;
+}
+
