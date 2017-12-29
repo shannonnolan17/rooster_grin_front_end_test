@@ -75,7 +75,7 @@ class App extends Component {
             <ContactForm />
           </Modal.Body>
           <Modal.Footer>
-            <Button onClick={this.close}>Submit</Button>
+            <Button className="button" onClick={this.close}>Submit</Button>
           </Modal.Footer>
         </Modal>
       </div>

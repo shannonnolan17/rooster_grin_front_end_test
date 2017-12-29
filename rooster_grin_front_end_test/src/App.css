@@ -191,5 +191,10 @@
   opacity:1;
 }
 
-
+.no-extras {
+  border: 1 !important;
+  box-shadow: none !important;
+  background-color: white !important;
+  cursor: default !important;
+}
 
