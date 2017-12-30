@@ -73,15 +73,11 @@ class App extends Component {
           </header>
         </Sticky>
 
-        <div className="container">
-          <Modal show={this.state.showModal} onHide={this.close} animation={true} >
-
-            <Modal.Body className="modal-body">
-              <ContactForm />
+        <div>
+          <Modal show={this.state.showModal} onHide={this.close} animation={true}>
+            <Modal.Body>
+              <ContactForm close={this.close} showModal={this.state.showModal} />
             </Modal.Body>
-            <Modal.Footer className="modal-body">
-              <Button className="button center-block" onClick={this.close}>Submit</Button>
-            </Modal.Footer>
           </Modal>
         </div>
       </div>

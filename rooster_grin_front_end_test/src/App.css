@@ -177,9 +177,38 @@
 
 }
 
-.contact-modal {
+.modal-form-wrapper, .modal-content {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
   background: rgba(105, 105, 105, .7);
+  z-index: 1;
+  color: white;
 
+}
+.modal-form-wrapper::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
+.contact-form-container {
+  overflow: hidden;
+  width: 100%;
+}
+.contact-form-container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.contact-form {
+  border-top: 1px solid #e5e5e5;
 }
 
 .carousel-image {
@@ -191,6 +220,10 @@
   padding: 20px;
 }
 
+.form-group {
+  padding: 20px;
+}
+
 
 .fade {
   opacity:0.5;
@@ -198,12 +231,6 @@
 
 .fade:hover {
   opacity:1;
-}
-
-.modal-body {
-  border: none !important;
-  box-shadow: none !important;
-  background-color: rgba(105, 105, 105, .48) !important;
 }
 
 

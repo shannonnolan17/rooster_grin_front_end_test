@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { Form } from 'react-bootstrap';
+import { Form, Button, Modal } from 'react-bootstrap';
 
 class ContactForm extends Component {
   render() {
     return (
-      <div>
+      <div className="modal-form-wrapper">
+
         <h1 className="title"><span className="first-word">CONTACT US</span></h1>
-        <div className="contact-form no-extras">
+        <div className="contact-form-container no-extras">
           <form>
             <div className="form-group">
               <label for="name">Your Name</label>
@@ -29,10 +30,13 @@ class ContactForm extends Component {
               <label for="message">Your Message</label>
               <textarea type="text" className="form-control"/>
             </div>
+
+            <Button className="button center-block" onClick={this.props.close}>Submit</Button>
           </form>
 
         </div>
       </div>
+
 
     );
   }
