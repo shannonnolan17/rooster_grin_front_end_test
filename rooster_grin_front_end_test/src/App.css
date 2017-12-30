@@ -182,6 +182,10 @@
 
 }
 
+.carousel-image {
+  height: 509px;
+}
+
 .fade {
   opacity:0.5;
 }

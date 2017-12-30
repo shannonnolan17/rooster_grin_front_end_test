@@ -43,11 +43,15 @@ class App extends Component {
         <div className="container-flex">
           <Carousel className="carousel" autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
             <div>
-              <img src={require('./carousel_images/hero-img.jpg')} />
+              <img className="carousel-image" src={require('./carousel_images/hero-img.jpg')} />
             </div>
 
             <div>
-              <img src={require('./carousel_images/iStock-503300108.jpg')} />
+              <img className="carousel-image" src={require('./carousel_images/lesly-juarez-220845.jpg')} />
+            </div>
+
+            <div>
+              <img className="carousel-image" src={require('./carousel_images/yingpis-kalayom-133680.jpg')} />
             </div>
           </Carousel>
 
