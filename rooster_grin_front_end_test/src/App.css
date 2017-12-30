@@ -33,8 +33,8 @@
 
 .caption, .gradient-text {
   position: absolute;
-  left: 10%;
-  right: 10%;
+  left: 5%;
+  right: 5%;
   top: 30%;
   text-align: center;
   font-family: 'Roboto';
@@ -182,6 +182,15 @@
 
 }
 
+.carousel-image {
+  height: 509px;
+}
+
+.form-control {
+  height: 50px;
+  padding: 20px;
+}
+
 
 .fade {
   opacity:0.5;
@@ -191,11 +200,10 @@
   opacity:1;
 }
 
-.no-extras {
-  border: 1 !important;
+.modal-body {
+  border: none !important;
   box-shadow: none !important;
-  background-color: white !important;
-  cursor: default !important;
+  background-color: rgba(105, 105, 105, .48) !important;
 }
 
 
