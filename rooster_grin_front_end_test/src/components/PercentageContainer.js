@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Transition from 'react-transition-group/Transition';
-import { CSSTransitionGroup } from 'react-transition-group';
+
 
 class PercentageContainer extends Component {
   constructor(props) {
