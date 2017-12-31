@@ -27,7 +27,7 @@ class PercentageContainer extends Component {
               <p className="testimonial-styling">The care, patience, kindness and compassion given to him and our family have been so heartwarming and sincere the past two years. We're most grateful for the time and effort given to Geoffrey not only to create a beautiful smile but also feel inspired by the process to see how their hard work and efforts have increased his self-esteem to feel more confidant and self-assured every time he flashes his pearly whites!</p>
             </div>
             <div className="col-sm-6 button-position">
-              <button type="button" className="button">Button</button>
+              <button type="button" className="button grow">Button</button>
             </div>
           </div>
         </div>
