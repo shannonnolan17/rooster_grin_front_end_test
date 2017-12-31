@@ -218,8 +218,19 @@
 }
 
 .footer {
-  border-top-style: solid;
+  background: #283647;
 
+}
+
+.footer-paragraph {
+  color: #1767DD;
+}
+
+.img-overlay {
+  position: relative;
+  max-width: 100%;
+  background: linear-gradient(to right, #F36819, #000000);
+  opacity: 30%;
 }
 
 .fade {

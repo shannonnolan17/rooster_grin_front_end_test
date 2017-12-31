@@ -41,7 +41,7 @@ class App extends Component {
           <NavBar />
         </div>
 
-        <div className="container-flex">
+        <div className="container-flex img-overlay">
           <Carousel className="carousel" autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
             <div>
               <img className="carousel-image" src={require('./carousel_images/hero-img.jpg')} />
