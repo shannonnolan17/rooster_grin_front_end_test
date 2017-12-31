@@ -9,6 +9,8 @@
 
 .carousel {
   height: 509px;
+  position: absolute;
+  z-index: 0;
 }
 
 .thumbnail {
@@ -22,14 +24,9 @@
   border-radius: 5px 0 0 5px;
   height: 40px;
   width: 50px;
+  z-index: 1;
 }
 
-.sticky-button-position {
-  top: 35%;
-  right: 100;
-  left: 0;
-
-}
 
 .caption, .gradient-text {
   position: absolute;
@@ -185,7 +182,7 @@
   bottom: 0;
   left: 0;
   opacity: 1;
-  background: rgba(105, 105, 105, .7);
+  background: rgba(0, 0, 0, .2);
   z-index: 1;
   color: white;
 
@@ -207,10 +204,6 @@
   display: table;
 }
 
-.contact-form {
-  border-top: 1px solid #e5e5e5;
-}
-
 .carousel-image {
   height: 509px;
 }
@@ -221,9 +214,13 @@
 }
 
 .form-group {
-  padding: 20px;
+  padding: 15px;
 }
 
+.footer {
+  border-top-style: solid;
+
+}
 
 .fade {
   opacity:0.5;
