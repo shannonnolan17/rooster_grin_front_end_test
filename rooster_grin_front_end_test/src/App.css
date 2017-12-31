@@ -215,6 +215,8 @@
 
 .carousel-image {
   height: 509px;
+  width: 100%;
+
 }
 
 .form-control {
@@ -227,12 +229,17 @@
 }
 
 .footer {
-  background: #283647;
+  background: #d3d3d3;
 
 }
 
 .footer-paragraph {
   color: #1767DD;
+}
+
+.footer-links {
+  padding: 30px;
+
 }
 
 #custom-search-input{
@@ -261,16 +268,15 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
-  justify-content: center;
+  padding: 40px;
+  padding-left: 25%;
 }
 
 
 .img-overlay {
   position: relative;
   max-width: 100%;
-  background: linear-gradient(to right, #F36819, #000000);
-  opacity: 30%;
+  background: linear-gradient(to right, rgba(243, 104, 25, .5), rgba(0, 0, 0, .5));
 }
 
 .fade {

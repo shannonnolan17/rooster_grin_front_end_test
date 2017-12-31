@@ -48,17 +48,17 @@ class App extends Component {
             </div>
 
             <div>
-              <img className="carousel-image" src={require('./carousel_images/lesly-juarez-220845.jpg')} />
+              <img className="carousel-image" src={require('./carousel_images/iStock-503300108.jpg')} />
             </div>
 
             <div>
-              <img className="carousel-image" src={require('./carousel_images/yingpis-kalayom-133680.jpg')} />
+              <img className="carousel-image" src={require('./carousel_images/iStock-613672992.jpg')} />
             </div>
           </Carousel>
 
           <div className="carousel-caption carousel-text">
             <h1 className="carousel-title">Anne O'Day Orthodontics</h1>
-            <button type="button" className="carousel-button">Button</button>
+            <button type="button" onClick={this._onButtonClick} className="carousel-button">Contact Us</button>
           </div>
         </div>
 
