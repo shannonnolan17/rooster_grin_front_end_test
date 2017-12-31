@@ -74,6 +74,8 @@ class App extends Component {
         </Sticky>
 
 
+
+
         <div>
           <Modal show={this.state.showModal} onHide={this.close} animation={true}>
             <Modal.Body>
@@ -99,9 +101,11 @@ class App extends Component {
           <PictureGrid />
         </div>
 
+
         <div className="spacing">
           <Footer />
         </div>
+
 
       </div>
     );
