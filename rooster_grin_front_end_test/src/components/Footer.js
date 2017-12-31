@@ -41,12 +41,12 @@ class Footer extends Component {
 
 
             <div className="col-md-4 footer-links">
-              <h5 className="title2">Links</h5>
+              <h5 className="title2">Navigate Our Site</h5>
               <ul>
-                <li className="footer-paragraph"><a href="#!">Link 1</a></li>
-                <li className="footer-paragraph"><a href="#!">Link 2</a></li>
-                <li className="footer-paragraph"><a href="#!">Link 3</a></li>
-                <li className="footer-paragraph"><a href="#!">Link 4</a></li>
+                <li className="footer-paragraph"><a href="#!">About Us</a></li>
+                <li className="footer-paragraph"><a href="#!">Meet Our Team</a></li>
+                <li className="footer-paragraph"><a href="#!">Our Services</a></li>
+                <li className="footer-paragraph"><a href="#!">For Patients</a></li>
               </ul>
             </div>
           </div>
