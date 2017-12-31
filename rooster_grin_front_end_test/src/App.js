@@ -58,7 +58,7 @@ class App extends Component {
 
           <div className="carousel-caption carousel-text">
             <h1 className="carousel-title">Anne O'Day Orthodontics</h1>
-            <button type="button" onClick={this._onButtonClick} className="carousel-button">Contact Us</button>
+            <button type="button" onClick={this._onButtonClick} className="carousel-button grow">Contact Us</button>
           </div>
         </div>
 
