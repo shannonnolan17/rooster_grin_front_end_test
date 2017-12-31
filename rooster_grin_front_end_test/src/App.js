@@ -9,6 +9,7 @@ import GradientBackground from './components/GradientBackground'
 import PercentageContainer from './components/PercentageContainer'
 import PictureGrid from './components/PictureGrid'
 import ContactForm from './components/ContactForm'
+import Footer from './components/Footer'
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 import Sticky from 'react-sticky-el';
 
@@ -40,7 +41,7 @@ class App extends Component {
           <NavBar />
         </div>
 
-        <div className="container-flex">
+        <div className="container-flex img-overlay">
           <Carousel className="carousel" autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
             <div>
               <img className="carousel-image" src={require('./carousel_images/hero-img.jpg')} />
@@ -64,28 +65,23 @@ class App extends Component {
 
 
       <div>
-        <Sticky >
-          <header>
-            <div className="envelope-pic carousel-caption sticky-button-position" >
-              <img onClick={this._onButtonClick} src={require('./images/envelope-icon.svg')} />
 
-            </div>
-          </header>
-        </Sticky>
-
-        <div className="container">
-          <Modal show={this.state.showModal} onHide={this.close} animation={true} >
-
-            <Modal.Body className="modal-body">
-              <ContactForm />
+        <div>
+          <Modal show={this.state.showModal} onHide={this.close} animation={true}>
+            <Modal.Body>
+              <ContactForm close={this.close} showModal={this.state.showModal} />
             </Modal.Body>
-            <Modal.Footer className="modal-body">
-              <Button className="button center-block" onClick={this.close}>Submit</Button>
-            </Modal.Footer>
           </Modal>
         </div>
       </div>
 
+        <Sticky >
+          <header>
+            <div className="envelope-pic sticky-button-position" >
+              <img onClick={this._onButtonClick} src={require('./images/envelope-icon.svg')} />
+            </div>
+          </header>
+        </Sticky>
 
         <div>
           <CompanyIntro className="spacing"/>
@@ -101,6 +97,10 @@ class App extends Component {
 
         <div className="spacing">
           <PictureGrid />
+        </div>
+
+        <div className="spacing">
+          <Footer />
         </div>
 
       </div>

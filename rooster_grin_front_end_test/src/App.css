@@ -9,6 +9,8 @@
 
 .carousel {
   height: 509px;
+  position: absolute;
+  z-index: 0;
 }
 
 .thumbnail {
@@ -22,14 +24,9 @@
   border-radius: 5px 0 0 5px;
   height: 40px;
   width: 50px;
+  z-index: 1;
 }
 
-.sticky-button-position {
-  top: 35%;
-  right: 100;
-  left: 0;
-
-}
 
 .caption, .gradient-text {
   position: absolute;
@@ -177,9 +174,34 @@
 
 }
 
-.contact-modal {
-  background: rgba(105, 105, 105, .7);
+.modal-form-wrapper, .modal-content {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  background: rgba(0, 0, 0, .2);
+  z-index: 1;
+  color: white;
 
+}
+.modal-form-wrapper::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
+.contact-form-container {
+  overflow: hidden;
+  width: 100%;
+}
+.contact-form-container::after {
+  clear: both;
+  content: "";
+  display: table;
 }
 
 .carousel-image {
@@ -191,6 +213,25 @@
   padding: 20px;
 }
 
+.form-group {
+  padding: 15px;
+}
+
+.footer {
+  background: #283647;
+
+}
+
+.footer-paragraph {
+  color: #1767DD;
+}
+
+.img-overlay {
+  position: relative;
+  max-width: 100%;
+  background: linear-gradient(to right, #F36819, #000000);
+  opacity: 30%;
+}
 
 .fade {
   opacity:0.5;
@@ -198,12 +239,6 @@
 
 .fade:hover {
   opacity:1;
-}
-
-.modal-body {
-  border: none !important;
-  box-shadow: none !important;
-  background-color: rgba(105, 105, 105, .48) !important;
 }
 
 
