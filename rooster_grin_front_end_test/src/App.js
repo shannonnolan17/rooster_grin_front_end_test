@@ -48,23 +48,27 @@ class App extends Component {
             </div>
 
             <div>
-              <img className="carousel-image" src={require('./carousel_images/lesly-juarez-220845.jpg')} />
+              <img className="carousel-image" src={require('./carousel_images/iStock-503300108.jpg')} />
             </div>
 
             <div>
-              <img className="carousel-image" src={require('./carousel_images/yingpis-kalayom-133680.jpg')} />
+              <img className="carousel-image" src={require('./carousel_images/iStock-613672992.jpg')} />
             </div>
           </Carousel>
 
-
           <div className="carousel-caption carousel-text">
             <h1 className="carousel-title">Anne O'Day Orthodontics</h1>
-            <button type="button" className="carousel-button">Button</button>
+            <button type="button" onClick={this._onButtonClick} className="carousel-button grow">Contact Us</button>
           </div>
         </div>
 
-
-      <div>
+        <Sticky className="sticky-button-position">
+          <header>
+            <div>
+              <img className="envelope-pic" onClick={this._onButtonClick} src={require('./images/envelope-icon.svg')} />
+            </div>
+          </header>
+        </Sticky>
 
         <div>
           <Modal show={this.state.showModal} onHide={this.close} animation={true}>
@@ -73,15 +77,7 @@ class App extends Component {
             </Modal.Body>
           </Modal>
         </div>
-      </div>
 
-        <Sticky >
-          <header>
-            <div className="envelope-pic sticky-button-position" >
-              <img onClick={this._onButtonClick} src={require('./images/envelope-icon.svg')} />
-            </div>
-          </header>
-        </Sticky>
 
         <div>
           <CompanyIntro className="spacing"/>
